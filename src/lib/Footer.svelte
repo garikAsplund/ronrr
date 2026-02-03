@@ -8,7 +8,7 @@
 			href="https://maps.app.goo.gl/jU1vu6yTPqebjzok7"
 			target="_blank"
 			rel="noopener noreferrer"
-			class="inline-flex items-center space-x-2 text-lg">909 Main St., Salmon, ID, 83467</a
+			class="inline-flex items-center space-x-2 text-lg">909 Main St., Salmon, ID 83467</a
 		>
 		<p class="text-lg select-all">hello@riverofnoreturnrecovery.org</p>
 

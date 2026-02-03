@@ -10,12 +10,12 @@ import soberBowlUrl from './sober_bowl.jpg?url';
 
 <main class="container mx-auto px-6 py-12">
   <div class="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
-    <img
+    <enhanced:img
       src={ballUrl}
       alt="Recovery bowling night"
       class="w-full md:w-1/2 rounded-lg shadow-lg object-cover"
     />
-    <img
+    <enhanced:img
       src={soberBowlUrl}
       alt="Sober social event"
       class="w-full md:w-1/2 rounded-lg shadow-lg object-cover"

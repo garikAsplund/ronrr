@@ -16,7 +16,7 @@
   </h1>
 
   <section class="space-y-4">
-    <ul class="list-disc list-inside text-teal-700 space-y-2">
+    <ul class="list-disc list-inside text-teal-700 space-y-2 text-xl">
       <li>Recovery coaching & peer support</li>
       <li>Re-entry services following incarceration</li>
       <li>Support groups & educational opportunities</li>
