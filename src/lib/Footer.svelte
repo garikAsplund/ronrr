@@ -3,11 +3,17 @@
 </script>
 
 <footer class="relative bottom-0 mt-auto flex w-full flex-col justify-center py-8">
-	<!-- <div class="flex w-full justify-center space-x-4 py-8">
-		<p>reddsauna@gmail.com</p>
-		<span>|</span>
-		<p class="hidden md:block">(541) 626-6261</p>
-		<a href="tel:5416266261" class="block md:hidden">(541) 626-6261</a>
-	</div> -->
+	<div class="flex w-full flex-col items-center justify-center space-x-4 py-8">
+		<a
+			href="https://maps.app.goo.gl/jU1vu6yTPqebjzok7"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="inline-flex items-center space-x-2 text-lg">909 Main St., Salmon, ID, United States, 83467</a
+		>
+		<p class="text-lg select-all">hello@riverofnoreturnrecovery.org</p>
+
+		<p>EIN: <span class="select-all">33-4597951</span></p>
+	</div>
+
 	<Watermark />
 </footer>
