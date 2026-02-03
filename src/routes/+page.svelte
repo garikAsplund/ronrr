@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>River of No Return Recovery Center</title>
+</svelte:head>
+
 <section
 	class="relative flex h-[64vh] items-center justify-center w-full
          overflow-hidden bg-gray-800"

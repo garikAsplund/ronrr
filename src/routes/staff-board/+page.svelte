@@ -134,7 +134,7 @@
 </script>
 
 <svelte:head>
-	<title>About · River of No Return Recovery</title>
+	<title>Staff & Board · River of No Return Recovery Center</title>
 </svelte:head>
 
 <main class="mx-auto max-w-3xl space-y-8 px-6 py-8">

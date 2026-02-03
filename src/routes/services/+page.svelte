@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Services · River of No Return Recovery</title>
+  <title>Services · River of No Return Recovery Center</title>
   <meta
     name="description"
     content="Free recovery coaching, peer support, re-entry services, support groups and more from River of No Return Recovery Center."
