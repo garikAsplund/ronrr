@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>About · River of No Return Recovery Center</title>
+	<title>About · River of No Return Recovery</title>
 </svelte:head>
 
 <main class="max-w-3xl mx-auto px-6 py-12 space-y-12">
@@ -11,7 +11,7 @@
     About River of No Return Recovery Center
   </h1>
 
-  <p class="text-lg text-teal-800">
+  <p class="text-lg">
     River of No Return Recovery Center (RRC) is a 501(c)(3) nonprofit
     Community Recovery Center located in Salmon, Idaho. Established to meet
     the growing need for accessible recovery support in rural Lemhi County
@@ -20,7 +20,7 @@
 
   <section class="space-y-4">
     <h2 class="text-2xl font-semibold text-teal-800">Our Approach</h2>
-    <p class="text-teal-700">
+    <p class="">
       RRC is a peer-led recovery center providing free support services to
       adults 18+ seeking recovery from substance use and co-occurring mental
       health challenges. Our approach is grounded in lived experience,
@@ -31,7 +31,7 @@
 
   <section class="space-y-4">
     <h2 class="text-2xl font-semibold text-teal-800">Our Board</h2>
-    <p class="text-teal-700">
+    <p class="">
       Our independent governing board is comprised of 50% members who are
       themselves in recovery, ensuring that the voices and experiences of
       those we serve remain central to our mission and decision-making.
@@ -40,7 +40,7 @@
 
   <section class="space-y-4">
     <h2 class="text-2xl font-semibold text-teal-800">Rural Outreach</h2>
-    <p class="text-teal-700">
+    <p class="">
       In addition to services at our Main Street location, RRC provides
       rural outreach and recovery support to outlying communities, reducing
       barriers to care in underserved areas.
@@ -49,7 +49,7 @@
 
   <section class="space-y-4">
     <h2 class="text-2xl font-semibold text-teal-800">Our Mission</h2>
-    <p class="text-teal-700">
+    <p class="">
       Through advocacy, education, and peer connection, River of No Return
       Recovery Center works to strengthen individuals, families, and the
       broader community—one recovery journey at a time.

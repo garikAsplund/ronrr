@@ -1,27 +1,8 @@
-<script lang="ts">
-	import { Phone, Mail, MapPin, Clock, FileCheck } from '@lucide/svelte';
-</script>
-
 <div class="mx-auto max-w-4xl px-4 py-8 sm:py-12">
-	<!-- Hero Section -->
-	<!-- <div class="mb-8 sm:mb-12">
-		<enhanced:img
-			src="/static/images/backgrounds/contact.jpg"
-			alt="Wallowa Land Trust Office"
-			class="h-24 w-full object-cover sm:h-64"
-		/>
-	</div>
-
-	<h1 class="mb-8 font-serif text-3xl text-slate-800 sm:mb-12 sm:text-4xl dark:text-slate-100">
-		Contact Us
-	</h1> -->
-
 	<div class="grid gap-8">
-		
-
 		<!-- Map Section -->
-		<div class="space-y-6 rounded-lg  p-6 sm:p-8 dark:bg-slate-800/50">
-			<h2 class="font-serif text-2xl text-slate-800 dark:text-slate-100">River of No Return Recovery Center</h2>
+		<div class="space-y-6 rounded-lg p-6 sm:p-8">
+			<h2 class="text-2xl font-bold text-teal-900">River of No Return Recovery Center</h2>
 
 			<!-- Map Embed -->
 			<div class="aspect-square w-full overflow-hidden rounded-lg">
@@ -37,8 +18,8 @@
 			</div>
 
 			<div class="space-y-4">
-				<h3 class="font-serif text-xl text-slate-800 dark:text-slate-100">Come find us</h3>
-				<p class="text-slate-700 dark:text-slate-300">
+				<h3 class=" text-xl text-gray-800">Come find us</h3>
+				<p class="text-gray-700">
 					We are located in downtown Salmon, Idaho. Free street parking is available.
 				</p>
 			</div>

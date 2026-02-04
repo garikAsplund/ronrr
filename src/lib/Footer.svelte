@@ -3,7 +3,7 @@
 </script>
 
 <footer class="relative bottom-0 mt-auto flex w-full flex-col justify-center py-8">
-	<div class="flex w-full flex-col items-center justify-center space-x-4 py-8">
+	<div class="flex w-full flex-col items-center justify-center space-x-4 py-8 text-gray-600">
 		<a
 			href="https://maps.app.goo.gl/jU1vu6yTPqebjzok7"
 			target="_blank"

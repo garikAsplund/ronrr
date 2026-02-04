@@ -1,3 +1,7 @@
+<script>
+	import { ExternalLink } from "@lucide/svelte";
+
+</script>
 <svelte:head>
 	<title>River of No Return Recovery Center</title>
 </svelte:head>
@@ -28,8 +32,9 @@
 			class="inline-block rounded bg-gray-500
              px-6 py-3 text-lg
              font-semibold text-white transition hover:bg-gray-600"
+             target="_blank"
 		>
-			Visit our Facebook Page
+			<span class="flex items-center">Visit our Facebook Page &nbsp;<ExternalLink size=20/></span>
 		</a>
 	</div>
 </section>

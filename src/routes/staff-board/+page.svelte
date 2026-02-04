@@ -137,12 +137,12 @@
 	<title>Staff & Board · River of No Return Recovery Center</title>
 </svelte:head>
 
-<main class="mx-auto max-w-3xl space-y-8 px-6 py-8">
-	<!-- ... your other about sections above ... -->
+<main class="mx-auto space-y-8 px-4 py-8 sm:px-6 lg:px-8">
+	<!-- visually hidden heading for a11y -->
+	<h1 class="sr-only">Leadership, Staff & Board</h1>
 
-	<!-- Insert the tabs here -->
-	<section class="mx-auto max-w-3xl px-6 py-8">
-		<h2 class="sr-only">Leadership, Board & Staff</h2>
+	<!-- make the tabs fluid on mobile, only constrain at sm+ -->
+	<div class="mx-auto w-full ">
 		<BoardStaffTabs {leadershipMembers} {boardMembers} {staffMembers} defaultValue="leadership" />
-	</section>
+	</div>
 </main>

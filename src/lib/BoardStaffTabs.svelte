@@ -18,7 +18,7 @@
   export let defaultValue: 'leadership' | 'board' | 'staff' = 'leadership'
 </script>
 
-<Tabs.Root value={defaultValue} class="w-full">
+<Tabs.Root value={defaultValue} class="w-full md:max-w-full mx-auto">
   <!-- big, centered tab row -->
   <Tabs.List class="flex w-full justify-center space-x-12 mb-8">
     {#each ['leadership', 'staff', 'board'] as tab}
@@ -26,8 +26,8 @@
         value={tab}
         class="
           text-xl font-semibold px-4 py-2
-          data-[state=inactive]:text-teal-600
-          data-[state=active]:text-teal-900 border-b-2
+          data-[state=inactive]:text-teal-800
+          data-[state=active]:text-teal-900 border-b
           data-[state=active]:border-teal-900
           focus:outline-none
         "
@@ -59,9 +59,9 @@
           <h3 class="text-2xl uppercase text-teal-900 font-bold text-center">
             {person.name}
           </h3>
-          <p class="text-lg text-teal-700 text-center">{person.role}</p>
+          <p class="text-lg text-teal-800 text-center">{person.role}</p>
           {#if person.bio}
-            <div class="space-y-3 text-teal-600 leading-relaxed">
+            <div class="space-y-3 text-gray-700 leading-relaxed">
               {#each person.bio as line}
                 <p>{line}</p>
               {/each}
