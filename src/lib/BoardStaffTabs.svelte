@@ -18,9 +18,9 @@
   export let defaultValue: 'leadership' | 'board' | 'staff' = 'leadership'
 </script>
 
-<Tabs.Root value={defaultValue} class="w-full md:max-w-full mx-auto">
+<Tabs.Root value={defaultValue} class="w-full md:max-w-full mx-auto ">
   <!-- big, centered tab row -->
-  <Tabs.List class="flex w-full justify-center space-x-12 mb-8">
+  <Tabs.List class="flex w-full justify-center space-x-12 mb-8 ">
     {#each ['leadership', 'staff', 'board'] as tab}
       <Tabs.Trigger
         value={tab}
@@ -29,7 +29,7 @@
           data-[state=inactive]:text-teal-800
           data-[state=active]:text-teal-900 border-b
           data-[state=active]:border-teal-900
-          focus:outline-none
+          focus:outline-none cursor-pointer
         "
       >
         {tab.charAt(0).toUpperCase() + tab.slice(1)}
