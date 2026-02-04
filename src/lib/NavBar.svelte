@@ -20,7 +20,7 @@
 
 	const linkClasses = (href: string) =>
 		current === href
-			? 'text-gray-900 font-semibold underline decoration-gray-900 underline-offset-2'
+			? 'text-gray-900 font-semibold underline decoration-gray-900 underline-offset-4'
 			: 'text-gray-700 hover:text-gray-900';
 </script>
 
