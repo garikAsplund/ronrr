@@ -137,7 +137,7 @@
 	<title>Staff & Board · River of No Return Recovery Center</title>
 </svelte:head>
 
-<main class="mx-auto space-y-8 px-4 py-8 sm:px-6 lg:px-8">
+<section class="mx-auto space-y-8 px-4 py-8 sm:px-6 lg:px-8">
 	<!-- visually hidden heading for a11y -->
 	<h1 class="sr-only">Leadership, Staff & Board</h1>
 
@@ -145,4 +145,4 @@
 	<div class="mx-auto w-full ">
 		<BoardStaffTabs {leadershipMembers} {boardMembers} {staffMembers} defaultValue="leadership" />
 	</div>
-</main>
+</section>

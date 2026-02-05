@@ -6,7 +6,7 @@
 	<title>About · River of No Return Recovery</title>
 </svelte:head>
 
-<main class="max-w-3xl mx-auto px-6 py-12 space-y-12">
+<section class="max-w-3xl mx-auto px-6 py-12 space-y-12">
   <h1 class="text-4xl font-extrabold text-teal-900">
     About River of No Return Recovery Center
   </h1>
@@ -55,4 +55,4 @@
       broader community—one recovery journey at a time.
     </p>
   </section>
-</main>
+</section>

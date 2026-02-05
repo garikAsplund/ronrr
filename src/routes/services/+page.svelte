@@ -24,7 +24,7 @@
   ];
 </script>
 
-<main class="mx-auto max-w-5xl px-4 py-12 space-y-12">
+<section class="mx-auto max-w-5xl px-4 py-12 space-y-12">
   <!-- heading with left accent bar -->
   <div class="flex justify-center w-full">
     <h2 class="text-3xl font-bold text-teal-900">Our Services</h2>
@@ -42,4 +42,4 @@
       </div>
     {/each}
   </div>
-</main>
+</section>
