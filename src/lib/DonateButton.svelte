@@ -10,7 +10,7 @@
 		rel="noopener noreferrer"
 		class="
  block w-full items-center justify-center
-      gap-2 rounded-lg bg-[hsl(170,56%,32%)]
+      gap-2 rounded-lg bg-teal-800
       px-4 py-2
       text-center text-xl text-gray-100 transition-all duration-150
       hover:brightness-110 active:scale-95

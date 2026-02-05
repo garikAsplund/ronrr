@@ -71,6 +71,7 @@
 <div
 	class="flex h-full min-h-screen w-full flex-col items-center selection:bg-black selection:text-slate-200 dark:selection:bg-yellow-400 dark:selection:text-black"
 >
+	<a href="#main-content" class="sr-only-focusable sr-only"> Skip to main content </a>
 	<NavBar />
 	{@render children()}
 	<Footer />

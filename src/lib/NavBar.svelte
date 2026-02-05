@@ -27,7 +27,7 @@
 <header class="w-full z-50">
 	<div class="flex w-full items-center justify-between px-4 py-3 md:py-4 md:px-16">
 		<!-- Logo -->
-		<a href="/" class="flex-none"><Logo class="h-12 w-12 md:h-24 md:w-24" /></a>
+		<a href="/" class="flex-none" aria-label="Home"><Logo class="h-12 w-12 md:h-24 md:w-24" /></a>
 
 		<!-- desktop nav -->
 		<nav class="hidden flex-1 justify-center md:flex">
