@@ -3,7 +3,7 @@
 	import heroDesktop from '$lib/assets/hero-desktop.jpg?enhanced';
 	import heroMobile from '$lib/assets/hero-mobile.png?enhanced';
 
-	let { isMobile = false} = $props();
+	let { isMobile } = $props();
 </script>
 
 <svelte:head>
