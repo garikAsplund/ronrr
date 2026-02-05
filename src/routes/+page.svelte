@@ -4,8 +4,6 @@
 	import heroMobile from '$lib/assets/hero-mobile.png?enhanced';
 
 	let { isMobile = false} = $props();
-
-    $inspect({isMobile});
 </script>
 
 <svelte:head>
