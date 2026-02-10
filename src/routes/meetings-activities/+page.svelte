@@ -18,7 +18,7 @@
 		<enhanced:img
 			src={ballUrl}
 			alt="Recovery bowling night"
-			class="w-full rounded-lg object-cover shadow-lg md:w-1/2"
+			class="w-full rounded-lg object-cover shadow-lg"
 		/>
 	</div>
 </section>
