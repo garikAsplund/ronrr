@@ -32,6 +32,7 @@
 			name: 'Annie Stokes',
 			role: 'Vice President',
 			photo: anniePhoto,
+			photoOffset: 'center 35%',
 			bio: [
 				'Annie Stokes is a Licensed Master Social Worker and serves as the Executive Director of Lemhi Valley Social Services. She began her career in the criminal justice system as a probation officer, where she gained firsthand experience working with individuals impacted by substance use, mental health challenges, and system involvement. Driven by a passion to better support individuals and families, Annie transitioned into social work and has spent the past 19 years working in the mental health and substance use treatment field.',
 
@@ -44,6 +45,8 @@
 			name: 'Maureen Barton',
 			role: 'Secretary',
 			photo: maureenPhoto,
+			photoOffset: 'center 35%',
+
 			bio: [
 				'Maureen Barton has been a resident of Salmon and  married for 18 years. She is the proud mother of one daughter. Maureen holds a degree in Psychology and spent many years working in Real Estate Finance before relocating to Salmon.',
 
@@ -113,6 +116,8 @@
 			name: 'Don Mogensen',
 			role: 'Board Member',
 			photo: donPhoto,
+			photoOffset: 'center 35%',
+
 			bio: [
 				'Don Mogensen has worked in the mental health field in Salmon for the past 15 years and has served as a Peer Support Specialist for approximately seven years. As someone in recovery himself, Don is a strong advocate for peer support and its transformative role in long-term recovery.',
 
@@ -126,6 +131,8 @@
 			name: 'Bruce Larson',
 			role: 'Peer Support / Recovery Coach',
 			photo: brucePhoto,
+			photoOffset: 'center 35%',
+
 			bio: [
 				'Bruce Larson is a Certified Peer Support Specialist and Recovery Coach. He graduated from the Lemhi County Felony Drug Court program in March 2023, an experience that inspired him to dedicate his life to helping others in his community overcome addiction.',
 
@@ -138,6 +145,7 @@
 			name: 'Lindsi Smith',
 			role: 'Peer Support / Recovery Coach',
 			photo: lindsiPhoto,
+			photoOffset: 'center 1%',
 			bio: [
 				'Lindsi Smith has been clean and sober since June 1, 2022, and is a graduate of the Bonneville County Felony Drug Court program. She became a Peer Support Specialist and Recovery Coach to share her story and provide guidance, support, and hope to individuals navigating addiction and mental health challenges.',
 
@@ -148,6 +156,7 @@
 			name: 'Kim Sheppard, CADC',
 			role: 'Peer Support / Recovery Coach',
 			photo: kimPhoto,
+			photoOffset: 'center 35%',
 			bio: [
 				'Kim Sheppard is a Certified Alcohol and Drug Counselor with nearly two decades of experience supporting individuals with substance use disorders. Kim is certified by the American Lung Association as a tobacco and nicotine cessation coach.',
 

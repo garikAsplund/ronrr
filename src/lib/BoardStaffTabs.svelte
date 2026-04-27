@@ -5,6 +5,7 @@
 		name: string;
 		role: string;
 		photo?: string;
+		photoOffset?: string;
 		bio?: string[];
 	}
 </script>
@@ -47,7 +48,7 @@
 							src={person.photo}
 							alt={person.name}
 							class="mx-auto h-48 w-48 rounded-full object-cover"
-							style={person.name === 'Lindsi Smith' ? 'object-position: center 1%' : ''}
+							style={person.photoOffset ? `object-position: ${person.photoOffset}` : ''}
 						/>
 					{/if}
 					<h3 class="text-center text-2xl font-bold text-teal-900 uppercase">
