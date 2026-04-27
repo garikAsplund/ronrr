@@ -18,6 +18,7 @@
 			name: 'Jana Eagle',
 			role: 'President',
 			photo: janaPhoto,
+			photoOffset: 'center bottom',
 			bio: [
 				'Jana Eagle has dedicated more than 30 years of service to the Lemhi County Court system. In 2007, she was a key member of the team that established the Lemhi County Drug Court, and she has served as the Drug Court Coordinator since its inception.',
 

@@ -6,6 +6,7 @@
 		role: string;
 		photo?: string;
 		photoOffset?: string;
+		photoZoom?: string;
 		bio?: string[];
 	}
 </script>
@@ -44,12 +45,16 @@
 			{#each tab === 'leadership' ? leadershipMembers : tab === 'board' ? boardMembers : staffMembers as person}
 				<article class="space-y-4">
 					{#if person.photo}
-						<enhanced:img
-							src={person.photo}
-							alt={person.name}
-							class="mx-auto h-48 w-48 rounded-full object-cover"
-							style={person.photoOffset ? `object-position: ${person.photoOffset}` : ''}
-						/>
+						<div class="mx-auto h-48 w-48 overflow-hidden rounded-full">
+							<enhanced:img
+								src={person.photo}
+								alt={person.name}
+								class={person.name === 'Jana Eagle'
+									? 'h-80 w-80 object-cover'
+									: 'h-48 w-48 object-cover'}
+								style={person.name === 'Jana Eagle' ? 'transform: translate(-0px, -65px)' : `object-position: ${person.photoOffset || 'center'}`}
+							/>
+						</div>
 					{/if}
 					<h3 class="text-center text-2xl font-bold text-teal-900 uppercase">
 						{person.name}
