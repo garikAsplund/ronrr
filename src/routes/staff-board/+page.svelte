@@ -1,10 +1,23 @@
 <script lang="ts">
 	import BoardStaffTabs, { type Person } from '$lib/BoardStaffTabs.svelte';
+	import janaPhoto from '$lib/assets/staff/jana.jpeg';
+	import anniePhoto from '$lib/assets/staff/annie.jpeg';
+	import maureenPhoto from '$lib/assets/staff/maureen.jpeg';
+	import debbiePhoto from '$lib/assets/staff/deb.png';
+	import adamPhoto from '$lib/assets/staff/adam.jpeg';
+	import mathewPhoto from '$lib/assets/staff/mat.jpeg';
+	import johnPhoto from '$lib/assets/staff/john.jpeg';
+	import michelePhoto from '$lib/assets/staff/michele.jpeg';
+	import donPhoto from '$lib/assets/staff/don.jpeg';
+	import brucePhoto from '$lib/assets/staff/bruce.jpeg';
+	import lindsiPhoto from '$lib/assets/staff/lindsi.jpeg';
+	import kimPhoto from '$lib/assets/staff/kim.jpeg';
 
 	const leadershipMembers: Person[] = [
 		{
 			name: 'Jana Eagle',
 			role: 'President',
+			photo: janaPhoto,
 			bio: [
 				'Jana Eagle has dedicated more than 30 years of service to the Lemhi County Court system. In 2007, she was a key member of the team that established the Lemhi County Drug Court, and she has served as the Drug Court Coordinator since its inception.',
 
@@ -18,6 +31,7 @@
 		{
 			name: 'Annie Stokes',
 			role: 'Vice President',
+			photo: anniePhoto,
 			bio: [
 				'Annie Stokes is a Licensed Master Social Worker and serves as the Executive Director of Lemhi Valley Social Services. She began her career in the criminal justice system as a probation officer, where she gained firsthand experience working with individuals impacted by substance use, mental health challenges, and system involvement. Driven by a passion to better support individuals and families, Annie transitioned into social work and has spent the past 19 years working in the mental health and substance use treatment field.',
 
@@ -29,6 +43,7 @@
 		{
 			name: 'Maureen Barton',
 			role: 'Secretary',
+			photo: maureenPhoto,
 			bio: [
 				'Maureen Barton has been a resident of Salmon and  married for 18 years. She is the proud mother of one daughter. Maureen holds a degree in Psychology and spent many years working in Real Estate Finance before relocating to Salmon.',
 
@@ -43,6 +58,7 @@
 		{
 			name: 'Debbie Bielby',
 			role: 'Board Member',
+			photo: debbiePhoto,
 			bio: [
 				'Debbie Bielby has worked in the Lemhi County Jail and Dispatch for the past 18 years and has spent most of her life in Salmon. Through her work in the criminal justice system, she has gained valuable insight into the challenges faced by individuals and families impacted by substance use and mental health concerns.',
 
@@ -52,6 +68,7 @@
 		{
 			name: 'Adam Earl',
 			role: 'Board Member',
+			photo: adamPhoto,
 			bio: [
 				'Adam Earl has lived in Salmon for the past 16 years and is a general contractor and local business owner. He has been in recovery for over eight years and brings valuable lived experience to his role with the River of No Return Recovery Center.',
 
@@ -61,6 +78,7 @@
 		{
 			name: 'Mathew Durbrow',
 			role: 'Board Member',
+			photo: mathewPhoto,
 			bio: [
 				'Mathew Durbrow has lived in Salmon for the past seven years and has been in recovery for over six years. He is a general contractor, husband, and father of three, and brings both professional experience and lived recovery insight to his role with the River of No Return Recovery Center.',
 
@@ -70,6 +88,7 @@
 		{
 			name: 'John Bennet',
 			role: 'Sheriff/Board Member',
+			photo: johnPhoto,
 			bio: [
 				'John Bennet has served Lemhi County for over 21 years with the Sheriff’s Office and has dedicated 39 years as a volunteer with Salmon Search and Rescue, as well as 6 years with the Lemhi County Fire Protection District. For the past 15 years, he has served as the Sheriff’s Office narcotics investigator, gaining first hand insight into the devastating effects of substance use on individuals and the community.',
 
@@ -81,6 +100,7 @@
 		{
 			name: 'Michele Aitken',
 			role: 'Board Member',
+			photo: michelePhoto,
 			bio: [
 				'Michele Aitken is a proud mother of four and serves as a board member for the River of No Return Recovery Center. She works for Lemhi County Probation and is deeply committed to helping individuals make positive, lasting changes in their lives.',
 
@@ -92,6 +112,7 @@
 		{
 			name: 'Don Mogensen',
 			role: 'Board Member',
+			photo: donPhoto,
 			bio: [
 				'Don Mogensen has worked in the mental health field in Salmon for the past 15 years and has served as a Peer Support Specialist for approximately seven years. As someone in recovery himself, Don is a strong advocate for peer support and its transformative role in long-term recovery.',
 
@@ -104,6 +125,7 @@
 		{
 			name: 'Bruce Larson',
 			role: 'Peer Support / Recovery Coach',
+			photo: brucePhoto,
 			bio: [
 				'Bruce Larson is a Certified Peer Support Specialist and Recovery Coach. He graduated from the Lemhi County Felony Drug Court program in March 2023, an experience that inspired him to dedicate his life to helping others in his community overcome addiction.',
 
@@ -115,6 +137,7 @@
 		{
 			name: 'Lindsi Smith',
 			role: 'Peer Support / Recovery Coach',
+			photo: lindsiPhoto,
 			bio: [
 				'Lindsi Smith has been clean and sober since June 1, 2022, and is a graduate of the Bonneville County Felony Drug Court program. She became a Peer Support Specialist and Recovery Coach to share her story and provide guidance, support, and hope to individuals navigating addiction and mental health challenges.',
 
@@ -124,6 +147,7 @@
 		{
 			name: 'Kim Sheppard, CADC',
 			role: 'Peer Support / Recovery Coach',
+			photo: kimPhoto,
 			bio: [
 				'Kim Sheppard is a Certified Alcohol and Drug Counselor with nearly two decades of experience supporting individuals with substance use disorders. Kim is certified by the American Lung Association as a tobacco and nicotine cessation coach.',
 
@@ -142,7 +166,7 @@
 	<h1 class="sr-only">Leadership, Staff & Board</h1>
 
 	<!-- make the tabs fluid on mobile, only constrain at sm+ -->
-	<div class="mx-auto w-full ">
+	<div class="mx-auto w-full">
 		<BoardStaffTabs {leadershipMembers} {boardMembers} {staffMembers} defaultValue="leadership" />
 	</div>
 </section>

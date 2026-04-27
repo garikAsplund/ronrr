@@ -15,7 +15,7 @@
 		{ href: '/services', label: 'Services' },
 		{ href: '/staff-board', label: 'Staff & Board' },
 		{ href: '/meetings-activities', label: 'Meetings & Activities' },
-		{ href: '/contact', label: 'Contact' }
+		{ href: '/contact', label: 'Contact' },
 	];
 
 	const linkClasses = (href: string) =>
